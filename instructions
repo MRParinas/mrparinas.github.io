@@ -1,0 +1,23 @@
+Here are steps that you need to create your own webpage in GitHub
+
+1. You need to create an account with GitHub
+2. Make a repository in GitHub, eg. username.github.io
+3. You need to download your code editor - Visual Studio Code - great option
+4. Create index.html file in code editor
+5. Use html to make the website, start with a header and a photo for now.
+6. Save your preferred photo in the same folder as the html file you created earlier
+7. Here is how you can start with your header: 
+   <html>
+     <h1>your name Portfolio</h1>
+8. Then you can add image search your photo (saved in the same folder as the html)
+   <html>
+     <h1>your name Portfolio</h1>
+     <image src="./your photo.jpg" /> 
+   </html> 
+9. Once completed, do not forget to save the file 
+10. Open your html file on your local and check if it works first
+11. Open your repository and select add a file
+12. Open your file manager then drag and drop both your photo and your html file into the repository
+13. Commit the files then select the html file to check your code (just to make sure it is the correct file)
+14. View your webpage using your repository name in the browser
+15. Congratulations
