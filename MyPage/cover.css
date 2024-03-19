@@ -120,3 +120,16 @@ body {
   .mastfoot {
     color: rgba(255, 255, 255, .5);
   }
+.video-link {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+  }
+  .site-logo {
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    width: 150px; 
+    height: auto;
+    z-index: 1000; 
