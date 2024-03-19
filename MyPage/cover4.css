@@ -100,13 +100,53 @@ body {
     float: right;
   }
 }
+.project-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 5rem;
+}
+.project-tile {
+  
+  width: 10rem;
+  height: 10rem;
+  padding: 20px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-tile img {
+  width: 60%;
+  height: 60%;
+  border-radius: 10px;
+  
+}
+
+.project-tile h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-tile:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 
 /*
  * Cover
  */
 .cover {
-  padding: 30rem 0 1.5rem 1.5rem;
+  padding: 5rem 0 1.5rem 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
